@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD2C8E8E2577EBC300F7452C /* SwiftExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C8E8B2577EBC300F7452C /* SwiftExample.swift */; };
+		FD2C8EB32577F1EF00F7452C /* OBJCExampleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C8EB22577F1EF00F7452C /* OBJCExampleClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD2C8E2B2577D83C00F7452C /* Example_Swift_Package_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example_Swift_Package_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2C8E3F2577D8B500F7452C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 		FD2C8E8A2577EBC300F7452C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = sources/Info.plist; sourceTree = SOURCE_ROOT; };
-		FD2C8E8B2577EBC300F7452C /* SwiftExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftExample.swift; path = sources/SwiftExample.swift; sourceTree = SOURCE_ROOT; };
 		FD2C8E8C2577EBC300F7452C /* Example_Swift_Package_Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Example_Swift_Package_Manager.h; path = sources/Example_Swift_Package_Manager.h; sourceTree = SOURCE_ROOT; };
+		FD2C8EB22577F1EF00F7452C /* OBJCExampleClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OBJCExampleClass.m; path = sources/OBJCExampleClass.m; sourceTree = SOURCE_ROOT; };
+		FD2C8EB52577F21800F7452C /* OBJCExampleClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OBJCExampleClass.h; path = sources/OBJCExampleClass.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +51,8 @@
 			children = (
 				FD2C8E8C2577EBC300F7452C /* Example_Swift_Package_Manager.h */,
 				FD2C8E8A2577EBC300F7452C /* Info.plist */,
-				FD2C8E8B2577EBC300F7452C /* SwiftExample.swift */,
+				FD2C8EB22577F1EF00F7452C /* OBJCExampleClass.m */,
+				FD2C8EB52577F21800F7452C /* OBJCExampleClass.h */,
 				FD2C8E3F2577D8B500F7452C /* Package.swift */,
 			);
 			name = "Example-Swift-Package-Manager";
@@ -135,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2C8E8E2577EBC300F7452C /* SwiftExample.swift in Sources */,
+				FD2C8EB32577F1EF00F7452C /* OBJCExampleClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
