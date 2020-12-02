@@ -7,6 +7,6 @@ let package = Package(
         .library(name: "Example-Swift-Package-Manager", type: .dynamic, targets: ["Example-Swift-Package-Manager"]),
     ],
     targets: [
-        .target(name: "Example-Swift-Package-Manager", dependencies: [], path: "sources"),
+        .target(name: "Example-Swift-Package-Manager", dependencies: [], path: "sources", publicHeadersPath: ""),
     ]
 )
