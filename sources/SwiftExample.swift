@@ -7,8 +7,8 @@
 
 import Foundation
 
-class SwiftExample {
-    func empty() -> String {
+public class SwiftExample {
+    public func empty() -> String {
         return "empty"
     }
 }

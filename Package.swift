@@ -6,8 +6,7 @@ let package = Package(
     products: [
         .library(name: "Example-Swift-Package-Manager", targets: ["Example-Swift-Package-Manager"])
     ],
-    dependencies: [],
     targets: [
-        .target(name: "Example-Swift-Package-Manager", dependencies: []),
+        .target(name: "Example-Swift-Package-Manager", dependencies: [], path: "sources"),
     ]
 )

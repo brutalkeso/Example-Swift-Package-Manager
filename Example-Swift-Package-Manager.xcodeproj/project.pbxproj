@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD2C8E302577D83C00F7452C /* Example_Swift_Package_Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2C8E2E2577D83C00F7452C /* Example_Swift_Package_Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD2C8E382577D84C00F7452C /* SwiftExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C8E372577D84C00F7452C /* SwiftExample.swift */; };
+		FD2C8E8E2577EBC300F7452C /* SwiftExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C8E8B2577EBC300F7452C /* SwiftExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD2C8E2B2577D83C00F7452C /* Example_Swift_Package_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example_Swift_Package_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD2C8E2E2577D83C00F7452C /* Example_Swift_Package_Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example_Swift_Package_Manager.h; sourceTree = "<group>"; };
-		FD2C8E2F2577D83C00F7452C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD2C8E372577D84C00F7452C /* SwiftExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExample.swift; sourceTree = "<group>"; };
 		FD2C8E3F2577D8B500F7452C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
+		FD2C8E8A2577EBC300F7452C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = sources/Info.plist; sourceTree = SOURCE_ROOT; };
+		FD2C8E8B2577EBC300F7452C /* SwiftExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftExample.swift; path = sources/SwiftExample.swift; sourceTree = SOURCE_ROOT; };
+		FD2C8E8C2577EBC300F7452C /* Example_Swift_Package_Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Example_Swift_Package_Manager.h; path = sources/Example_Swift_Package_Manager.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,10 +48,10 @@
 		FD2C8E2D2577D83C00F7452C /* Example-Swift-Package-Manager */ = {
 			isa = PBXGroup;
 			children = (
+				FD2C8E8C2577EBC300F7452C /* Example_Swift_Package_Manager.h */,
+				FD2C8E8A2577EBC300F7452C /* Info.plist */,
+				FD2C8E8B2577EBC300F7452C /* SwiftExample.swift */,
 				FD2C8E3F2577D8B500F7452C /* Package.swift */,
-				FD2C8E372577D84C00F7452C /* SwiftExample.swift */,
-				FD2C8E2E2577D83C00F7452C /* Example_Swift_Package_Manager.h */,
-				FD2C8E2F2577D83C00F7452C /* Info.plist */,
 			);
 			name = "Example-Swift-Package-Manager";
 			path = "sources/Example-Swift-Package-Manager";
@@ -65,7 +64,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2C8E302577D83C00F7452C /* Example_Swift_Package_Manager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2C8E382577D84C00F7452C /* SwiftExample.swift in Sources */,
+				FD2C8E8E2577EBC300F7452C /* SwiftExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +274,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "sources/Example-Swift-Package-Manager/Info.plist";
+				INFOPLIST_FILE = sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,7 +301,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "sources/Example-Swift-Package-Manager/Info.plist";
+				INFOPLIST_FILE = sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
