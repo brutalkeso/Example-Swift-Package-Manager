@@ -35,6 +35,7 @@
 			children = (
 				FD2C8E2D2577D83C00F7452C /* Example-Swift-Package-Manager */,
 				FD2C8E2C2577D83C00F7452C /* Products */,
+				FD2C8EC82577F71100F7452C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +58,13 @@
 			);
 			name = "Example-Swift-Package-Manager";
 			path = "sources/Example-Swift-Package-Manager";
+			sourceTree = "<group>";
+		};
+		FD2C8EC82577F71100F7452C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

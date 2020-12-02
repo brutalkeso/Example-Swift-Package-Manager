@@ -11,4 +11,5 @@
 #endif /* OBJCExampleClass_h */
 
 @interface OBJCExampleClass : NSObject
++ (NSString *)asd;
 @end
