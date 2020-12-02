@@ -9,6 +9,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "Example-Swift-Package-Manager", path: "Example-Swift-Package-Manager"),
+        .target(name: "Example-Swift-Package-Manager", dependencies: []),
     ]
 )

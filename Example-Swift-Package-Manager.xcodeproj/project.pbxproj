@@ -54,7 +54,8 @@
 				FD2C8E2E2577D83C00F7452C /* Example_Swift_Package_Manager.h */,
 				FD2C8E2F2577D83C00F7452C /* Info.plist */,
 			);
-			path = "Example-Swift-Package-Manager";
+			name = "Example-Swift-Package-Manager";
+			path = "sources/Example-Swift-Package-Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +276,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Example-Swift-Package-Manager/Info.plist";
+				INFOPLIST_FILE = "sources/Example-Swift-Package-Manager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,7 +303,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Example-Swift-Package-Manager/Info.plist";
+				INFOPLIST_FILE = "sources/Example-Swift-Package-Manager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
