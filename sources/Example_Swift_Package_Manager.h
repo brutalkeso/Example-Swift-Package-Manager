@@ -14,6 +14,3 @@ FOUNDATION_EXPORT double Example_Swift_Package_ManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char Example_Swift_Package_ManagerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Example_Swift_Package_Manager/PublicHeader.h>
-
-
-#import "OBJCExampleClass.h"
