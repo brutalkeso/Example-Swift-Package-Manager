@@ -9,6 +9,7 @@
 #define OBJCExampleClass_h
 
 #endif /* OBJCExampleClass_h */
+#import <Foundation/Foundation.h>
 
 @interface OBJCExampleClass : NSObject
 + (NSString *)asd;
